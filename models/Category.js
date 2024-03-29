@@ -4,6 +4,8 @@ const sequelize = require('../config/connection.js');
 
 class Category extends Model {}
 
+const Product = require('./Product');
+
 Category.init(
   {
     id: {
@@ -25,5 +27,8 @@ Category.init(
     modelName: 'category',
   }
 );
+
+Category.hasMany(Product);
+Product.belongsTo(Category);
 
 module.exports = Category;

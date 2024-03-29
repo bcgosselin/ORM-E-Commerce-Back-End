@@ -53,4 +53,6 @@ Product.init(
   }
 );
 
+Product.belongsTo(Category);
+
 module.exports = Product;
