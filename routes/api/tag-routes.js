@@ -22,7 +22,7 @@ router.get('/:id', async (req, res) => {
     const tag = await Tag.findByPk(req.params.id, { 
       include: [{ model: Product, through: ProductTag }],
     });
-
+    // if no tag return message
     if (!tag) {
       res.status(404).json({ message: 'Tag not found' });
       return;
@@ -50,7 +50,7 @@ router.put('/:id', async (req, res) => {
     const [updated] = await Tag.update(req.body, {
       where: { id: req.params.id },
     });
-
+    //if no tag name updated return message
     if (!updated) {
       res.status(404).json({ message: 'Tag not found' });
       return;
@@ -71,7 +71,7 @@ router.delete('/:id', async (req, res) => {
         id: req.params.id,
       },
     });
-
+    //if no tag to delete return message
     if (!deleteTag) {
       res.status(404).json({ message: 'No tag found with that id!' });
       return;
