@@ -9,6 +9,7 @@ const Product = require('./Product');
 // Initialize ProductTag model (table) by extending off Sequelize's Model class
 class ProductTag extends Model {}
 
+// set up fields and rules for ProductTag model
 ProductTag.init(
   {
     id: {
@@ -42,4 +43,5 @@ ProductTag.init(
   }
 );
 
+//export
 module.exports = ProductTag;
