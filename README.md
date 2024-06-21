@@ -1,7 +1,7 @@
 # e-commerce-backend-database
 full stack web development bootcamp module 13 challenge (back end for an e-commerce site) // Express.js API, Sequelize, MySQL
 
-https://github.com/bcgosselin/e-commerce-backend-database
+https://github.com/bcgosselin/ORM-E-Commerce-Back-End
 
 ## Description
 This project is Robert Gosselin's thirteenth bootcamp challenge. This project was created to showcase his skills and aptitude using only text based instructions. This application was hand-written utilizing credited resources [Credits](#credits). The goal of this challenge was to develop and engineer a functioning backend database for an e-commerce business. Everything included was apart of an ongoing bootcamp to develop and hone Full Stack Web Development skills.
