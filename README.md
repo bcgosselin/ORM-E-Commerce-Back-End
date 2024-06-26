@@ -1,4 +1,4 @@
-# e-commerce-backend-database
+# ORM: E-commerce Back End
 Configured an Express.js API with Sequelize for database interactions and CRUD operations. Developed API routes for categories, products, and tags. Documented and demonstrated application functionality with a walkthrough video.
 
 https://github.com/bcgosselin/ORM-E-Commerce-Back-End
