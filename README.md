@@ -1,5 +1,5 @@
 # e-commerce-backend-database
-full stack web development bootcamp module 13 challenge (back end for an e-commerce site) // Express.js API, Sequelize, MySQL
+Configured an Express.js API with Sequelize for database interactions and CRUD operations. Developed API routes for categories, products, and tags. Documented and demonstrated application functionality with a walkthrough video.
 
 https://github.com/bcgosselin/ORM-E-Commerce-Back-End
 
